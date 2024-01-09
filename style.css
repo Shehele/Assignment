@@ -60,7 +60,7 @@ header > h3 {
 
 /*.Styling for the image within the home content */
 .home-content >img {
-    height: 400px;
+    height: 500px;
 }
 
 /*.Styling for home description section */
@@ -98,9 +98,12 @@ header > h3 {
     border: 1px solid rgb( 0, 110, 255);
 }
 
-/*.Styling for images on the footer */
-.footer-content >img {
-    height: 24px;
-    height: 24px;
-    height: 24px;
-}
+ /* Styling for the icons images on the footer */
+ .footer-contents >img{
+    height: 24px; /* Size of each image */
+ }
+
+ /* Arrange images */
+ a{
+    margin-right: 10px; /* Add spacing between images */
+ }
